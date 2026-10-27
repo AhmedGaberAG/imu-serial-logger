@@ -1,0 +1,26 @@
+# Build output
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Data: keep small samples only
+data/*.csv
+!data/sample.csv
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
